@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# 环境变量
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+logs/
+
+# 运行时数据 / 缓存 (仅 backend 根目录下的 data/, 不包括 app/data/)
+/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# 调试输出
+debug_out.txt
+debug_*.txt
+
+# 项目压缩包
+*.rar
+*.zip
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+

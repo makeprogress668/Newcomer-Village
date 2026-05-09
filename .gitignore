@@ -1,0 +1,6 @@
+# 项目压缩包（用户本地打包,不应入库）
+*.rar
+*.zip
+*.tar.gz
+
+# 让位给 backend/.gitignore 和 frontend/.gitignore 各自管理
